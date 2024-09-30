@@ -1,0 +1,1 @@
+SELECT count(*) AS numberOfCustomers, country FROM {{ref('stg_customers')}} group by country order by numberOfCustomers desc

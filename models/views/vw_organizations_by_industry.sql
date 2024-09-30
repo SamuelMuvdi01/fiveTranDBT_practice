@@ -1,0 +1,1 @@
+SELECT count(*) AS numberPerIndustry, industry, FROM {{ref('stg_organizations')}} group by industry order by numberPerIndustry desc
