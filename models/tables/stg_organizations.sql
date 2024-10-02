@@ -1,1 +1,1 @@
-SELECT index, `Organization Id` AS organizationId, name, website, country, description, founded, industry, `number of employees` AS numberOfEmployees from {{ref('organizations')}}
+SELECT index, `Organization Id` AS organizationId, name, website, country, description, founded, industry, `number of employees` AS numberOfEmployees from {{ source('fiveTranDBT', 'organizations') }}
