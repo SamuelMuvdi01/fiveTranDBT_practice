@@ -6,4 +6,9 @@ sources:
     schema: fiveTranDBT
     tables:
       - name: customers
+        columns:
+        - name: email
+          tests:
+            - unique
+            - not_null
       - name: organizations
