@@ -2,6 +2,7 @@ version: 2
 
 sources:
   - name: fiveTranDBT
+    description: google big query practice set
     database: fivetranpractice1001
     schema: fiveTranDBT
     tables:
