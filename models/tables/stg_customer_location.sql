@@ -1,0 +1,1 @@
+SELECT customerID, addressLine1, addressLine2, city, state, zipCode from {{source('fiveTranDBT', 'dealership')}} order by customerID asc

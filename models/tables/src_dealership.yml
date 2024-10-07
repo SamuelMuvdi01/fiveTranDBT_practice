@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: fiveTranDBT
+    database: fivetranpractice1001
+    schema: fiveTranDBT
+    tables:
+      - name: dealership
+        description: This is the main source table which will be used to create the various dealership tables
+        columns:
+          - name: customerID
+              - not_null
+              - unique

@@ -1,0 +1,1 @@
+SELECT customerID, firstName, lastName, email, phone, gender, dob AS dateOfBirth FROM {{source('fiveTranDBT', 'dealership')}} order by customerID asc

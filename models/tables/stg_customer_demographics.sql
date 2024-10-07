@@ -1,0 +1,1 @@
+SELECT customerID, income, college, maritalStatus, dependents FROM {{source('fiveTranDBT', 'dealership')}} order by customerID asc
